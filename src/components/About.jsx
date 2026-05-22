@@ -28,15 +28,15 @@ const About = () => {
                  style={{ backgroundColor: '#8bc12d' }}
                ></div> 
                <p className="text-navy text-base md:text-lg italic max-w-sm">
-                 "Let us transform your ceilings and interiors to match your lifestyle."
+                 "Let us transform your ceilings to match your lifestyle."
                </p>
             </div>
             <h2 className="text-3xl md:text-5xl font-light text-navy tracking-tight uppercase">
-              FANTASTIC <span className="font-black">CEILINGS</span>
+              Ceillings <span className="font-black">Design</span>
             </h2>
             <p className="text-navy/70 text-sm leading-loose max-w-lg font-medium">
-              At Fantastic Ceilings, we specialize in luxury interior transformations 
-              that capture your unique vision. Based in Johannesburg and serving 
+              At Ceillings Design, we specialise in ceilings interior transformations 
+              that capture your unique vision. Based in Thembisa and serving 
               nationwide, we deliver sophisticated PVC installations, custom bulkheads, 
               and modern lighting systems tailored to your lifestyle.
             </p>
@@ -73,8 +73,8 @@ const About = () => {
               <div className="w-16 h-0.5 bg-gray-300"></div>
             </div>
             <p className="text-navy/80 text-sm leading-loose font-medium mb-10 md:mb-12 max-w-md">
-              Fantastic Ceilings believes in turning your dreams into reality. 
-              With years of experience in luxury interior design, we specialize in 
+              Ceillings Design believes in turning your dreams into reality. 
+              With years of experience in luxury ceilings design, we specialise in 
               crafting custom ceilings, bulkheads, and modern lighting systems 
               perfectly tailored to your home and lifestyle.
             </p>
