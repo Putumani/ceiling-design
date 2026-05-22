@@ -24,7 +24,7 @@ const Contact = () => {
           </h2>
           <div className="w-12 h-1 bg-[#8bc12d] mx-auto mt-4"></div>
           <p className="text-gray-500 max-w-xl mx-auto mt-6 font-medium">
-            Nationwide installation & supply. From Johannesburg to every province, we’ve got you covered.
+            Nationwide installation & supply. From Thembisa to every province, we’ve got you covered.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label className="block text-[10px] font-black uppercase tracking-widest text-navy/40 mb-2">Phone / Email</label>
-                  <input type="text" required className="w-full bg-gray-50 border border-gray-200 px-4 py-4 focus:ring-2 focus:ring-cyan focus:bg-white outline-none transition-all" placeholder="063 873 3550" />
+                  <input type="text" required className="w-full bg-gray-50 border border-gray-200 px-4 py-4 focus:ring-2 focus:ring-cyan focus:bg-white outline-none transition-all" placeholder="063 123 4567" />
                 </div>
               </div>
 
@@ -49,8 +49,6 @@ const Contact = () => {
                   <option>Ceiling & Drywalls (PVC/Tape)</option>
                   <option>Rhinolite & Bulkheads</option>
                   <option>Lighting (LED/Solar/Trap)</option>
-                  <option>TV Stands & Wall Panels</option>
-                  <option>Material Supply & Delivery</option>
                 </select>
               </div>
 
@@ -81,9 +79,8 @@ const Contact = () => {
               </h3>
               
               <p className="text-white/70 leading-relaxed mb-8 font-medium">
-                25 Magole Street, <br />
-                Ivory Park Exit 6, <br />
-                Johannesburg
+                Thembisa, <br />
+                South Africa
               </p>
 
               <div className="space-y-6">
@@ -91,17 +88,17 @@ const Contact = () => {
                   <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-cyan group-hover:border-cyan transition-all">
                     <FaPhoneAlt size={14} />
                   </div>
-                  <span className="font-bold tracking-widest text-sm">063 873 3550</span>
+                  <span className="font-bold tracking-widest text-sm">074 612 0340</span>
                 </a>
 
-                <a href="https://wa.me/27638733550" className="flex items-center gap-4 group">
+                <a href="https://wa.me/27746120340" className="flex items-center gap-4 group">
                   <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-[#8bc12d] group-hover:border-[#8bc12d] transition-all">
                     <FaWhatsapp size={18} />
                   </div>
                   <span className="font-bold tracking-widest text-sm text-[#8bc12d]">Chat on WhatsApp</span>
                 </a>
 
-                <a href="mailto:info@fantasticceilings.co.za" className="flex items-center gap-4 group">
+                <a href="mailto:gilberthasany2@gmail.com" className="flex items-center gap-4 group">
                   <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-cyan group-hover:border-cyan transition-all">
                     <FaEnvelope size={14} />
                   </div>
