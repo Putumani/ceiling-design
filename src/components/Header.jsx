@@ -96,7 +96,7 @@ const Header = () => {
             onClick={(e) => handleNavClick(e, 'home')}
             className="flex flex-col items-start focus:outline-none group text-left"
           >
-            <span className="font-ghang text-2xl md:text-3xl tracking-wide text-white group-hover:text-cyan transition-colors leading-none">
+            <span className="font-monas text-2xl md:text-3xl tracking-wide text-white group-hover:text-cyan transition-colors leading-none">
               Ceilling Design
             </span>
             <span className="text-[7px] md:text-[9px] uppercase tracking-[0.4em] text-white/40 group-hover:text-white/60 transition-colors mt-1">
@@ -104,7 +104,6 @@ const Header = () => {
             </span>
           </button>
           
-          {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-16">
             <div className="flex gap-10 text-sm">
               <button onClick={(e) => handleNavClick(e, 'home')} className={navLinkStyles('home')}>Home</button>

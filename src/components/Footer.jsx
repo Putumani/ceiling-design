@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="flex flex-col space-y-4">
             <div className="flex flex-col items-start">
-              <div className="text-2xl font-normal tracking-wide text-white font-ghang leading-none">
+              <div className="text-2xl font-normal tracking-wide text-white font-monas leading-none">
                 Ceilling Design
               </div>
               <div className="text-[8px] uppercase tracking-[0.35em] text-cyan font-bold mt-1.5 whitespace-nowrap">

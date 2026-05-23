@@ -1,19 +1,11 @@
 @import 'tailwindcss';
 
 @font-face {
-  font-family: 'Ghang';
-  src: url('./assets/fonts/ghang-font/Ghang-2nxo.ttf') format('truetype');
+  font-family: 'Monas';
+  src: url('./assets/fonts/monas-font/MonasDemoRegular-eZl86.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Ghang';
-  src: url('./assets/fonts/ghang-font/GhangPlain-vKW9.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 
 :root {
   --navy: #002D62;
@@ -22,7 +14,7 @@
 }
 
 @theme {
-  --font-ghang: 'Ghang', sans-serif;
+  --font-monas: 'Monas', sans-serif;
 
   --color-navy: #002D62;
   --color-cyan: #00AEEF;
@@ -30,6 +22,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
   @apply antialiased text-navy bg-white;
 }
 
@@ -43,11 +36,6 @@ a, button {
 
 h1, h2, .luxury-text {
   font-family: 'Playfair Display', serif; 
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  scroll-behavior: smooth;
 }
 
 .btn-primary {
